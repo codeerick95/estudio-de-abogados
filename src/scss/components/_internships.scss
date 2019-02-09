@@ -1,0 +1,24 @@
+.internships {
+    @include background-image('../images/internships.jpg');
+    color: $white;
+
+    .content {
+        @include background-blue(0.6);
+        h2 {
+            font-size: 3em;
+        }
+    }
+}
+
+/* Interships info */
+
+.interships-info {
+    .info {
+        padding-left: 8rem;
+    }
+    .background {
+        background-image: url('../images/interships-team.jpg');
+        background-size: cover;
+        opacity: .85;
+    }
+}
