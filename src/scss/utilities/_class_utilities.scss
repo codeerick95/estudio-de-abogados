@@ -37,6 +37,11 @@
     @include background-blue(.8);
 }
 
+.background-points {
+    background-image: url('../images/pattern.png');
+    background-size: 270px;
+}
+
 .texts {
     @include background-blue(0.2);
     border-left: 2px solid $blue;

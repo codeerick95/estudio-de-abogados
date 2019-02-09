@@ -1,0 +1,31 @@
+// Testimonies
+section.container.container-top.testimonies
+    .row.d-flex.justify-content-center
+        .col-md-11.p-0.rounded
+            .background-blue.rounded.w-100.d-flex.justify-content-center.align-items-center
+                // Carousel
+                #carouselContent.carousel.slide(data-ride='carousel')
+                    ol.carousel-indicators
+                        li.active(data-target='#carouselContent', data-slide-to='0')
+                        li(data-target='#carouselContent', data-slide-to='1')
+                        li(data-target='#carouselContent', data-slide-to='2')
+                    .carousel-inner(role='listbox')
+                        .carousel-item.active.text-center.p-4
+                            p.lead.mb-4.text-white
+                                q
+                                    | Recomiendo este estudio por su profesionalismo, dedicación y excelente atención.
+                            span.h3.text-white.d-inline-block.mb-4 Lorena Reyes
+                        .carousel-item.text-center.p-4
+                            p.lead.text-white.mb-4
+                                q
+                                    | Me recomendaron este estudio y ahora yo hago lo mismo,
+                                    | son los mejores resolviendo cualquier tipo de casos.
+                            span.h3.text-white.d-inline-block.mb-4 Jesús Coello
+                        .carousel-item.text-center.p-4
+                            p.lead.mb-4.text-white
+                                q
+                                    | Profesionales altamente calificados, apoyo total y continuo. El mejor estudio
+                                    | de abogados, lo recomiendo totalmente.
+                            span.h3.text-white.d-inline-block.mb-4 Fernando Mago
+                // End carousel
+// End testimonies

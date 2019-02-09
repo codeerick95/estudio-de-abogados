@@ -1,0 +1,13 @@
+.testimonies {
+    .col-md-11 {
+        background-image: url('../images/carousel-background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        &, .background-blue {
+            height: 300px;
+        }
+    }
+}

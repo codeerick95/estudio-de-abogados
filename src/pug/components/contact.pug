@@ -1,0 +1,48 @@
+// Contact
+section#contact.container.container-top.contact
+    .row
+        .col-md-5
+            .text-center.text-md-left.background-points
+                h3.text-uppercase.mb-5
+                    | Co
+                    span.line ntac
+                    | to
+                p.lead
+                    | Si tiene alguna pregunta, solo complete el formulario de contacto y le responderemos en breve.
+                p.lead.mb-5
+                    | También tiene a su disposición distintas formas de contactarnos.
+            // Form
+            form.d-flex.flex-column.justify-content-between(action='')
+                .row.mb-3
+                    .col-md-12
+                        .form-group
+                            input.form-control.rounded-0(type='text', placeholder='Nombre completo')
+                .row.mb-3
+                    .col-md-6
+                        .form-group
+                            input.form-control.rounded-0(type='email', placeholder='Correo electrónico')
+                    .col-md-6
+                        .form-group
+                            input.form-control.rounded-0(type='text', placeholder='Asunto')
+                .form-group
+                    textarea.form-control.rounded-0.mb-3(placeholder='Mensaje')
+                .form-group.align-self-end
+                    input.btn.btn-primary(type='submit')
+            // End form
+        // Ubication
+        .col-md-7.mt-5.m-md-0
+            .text-center.text-md-left
+                h3.text-uppercase.mb-5
+                    | Ub
+                    span.line icaci
+                    | ón
+                .mb-3
+                    span.icon.mr-1
+                        i.fas.fa-map-marker-alt
+                    span.lead
+                        | Av Jose Larco 453-497, Miraflores
+            // Maps
+            iframe.w-100(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.857217037325!2d-77.0328443856168!3d-12.12192034660255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c819733707fb%3A0x1e5a74acd2420786!2sParque+Kennedy%2C+Miraflores!5e0!3m2!1ses-419!2spe!4v1549510301536', width='600', height='450', frameborder='0', style='border:0', allowfullscreen='')
+            // End maps
+            // end ubication
+// End contact

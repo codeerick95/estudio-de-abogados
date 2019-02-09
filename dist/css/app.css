@@ -35,6 +35,29 @@
   .services .card .card-body {
     height: 250px; }
 
+.testimonies .col-md-11 {
+  background-image: url("../images/carousel-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .testimonies .col-md-11, .testimonies .col-md-11 .background-blue {
+    height: 300px; }
+
+form textarea:focus, form input[type]:focus {
+  border-color: rgba(80, 92, 253, 0.3) !important;
+  outline: 0 none;
+  -webkit-box-shadow: 0 1px 1px rgba(80, 92, 253, 0.1) inset, 0 0 5px rgba(80, 92, 253, 0.7) !important;
+  box-shadow: 0 1px 1px rgba(80, 92, 253, 0.1) inset, 0 0 5px rgba(80, 92, 253, 0.7) !important;
+  -webkit-transition: border 1s, outline 1s, -webkit-box-shadow 1s;
+  transition: border 1s, outline 1s, -webkit-box-shadow 1s;
+  -o-transition: box-shadow 1s, border 1s, outline 1s;
+  transition: box-shadow 1s, border 1s, outline 1s;
+  transition: box-shadow 1s, border 1s, outline 1s, -webkit-box-shadow 1s; }
+
+form textarea {
+  resize: none; }
+
 body {
   font-family: "Raleway", sans-serif;
   color: #434445; }
@@ -101,6 +124,10 @@ h2 {
 
 .background-blue {
   background-color: rgba(59, 61, 75, 0.8); }
+
+.background-points {
+  background-image: url("../images/pattern.png");
+  background-size: 270px; }
 
 .texts {
   background-color: rgba(59, 61, 75, 0.2);
