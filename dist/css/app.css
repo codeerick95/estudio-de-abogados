@@ -3,10 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
 .header {
   font-family: "Lato", sans-serif; }
-  .header .contact-info p {
-    font-size: .9em; }
-  .header .contact-info .social img {
-    width: 22px; }
   .header .navbar .navbar-nav {
     width: 60%; }
   .header .navbar .nav-link {
@@ -101,8 +97,8 @@ h2 {
 .container-top {
   margin-top: 7rem; }
 
-.border-bottom {
-  border-bottom: 1px solid #f3f1f1; }
+.contact-info {
+  font-size: .9em; }
 
 .line {
   display: inline-block;
@@ -121,6 +117,9 @@ h2 {
   font-size: 1em;
   color: #505cfd;
   opacity: .9; }
+
+.social img {
+  width: 22px; }
 
 .background-blue {
   background-color: rgba(59, 61, 75, 0.8); }

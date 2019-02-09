@@ -6,8 +6,8 @@
     margin-top: 7rem;
 }
 
-.border-bottom {
-    border-bottom: 1px solid $grey;
+.contact-info {
+    font-size: .9em;
 }
 
 .line {
@@ -31,6 +31,12 @@
     font-size: 1em;
     color: $blue;
     opacity: .9;
+}
+
+.social {
+    img {
+        width: 22px;
+    }
 }
 
 .background-blue {

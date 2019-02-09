@@ -11,10 +11,10 @@
   <body>
     <!-- Header-->
     <header class="header bg-white fixed-top" id="header">
-      <div class="container contact-info d-flex justify-content-between flex-wrap p-3 p-md-0 pt-md-3 border-bottom">
-        <p class="ml-3 pr-md-5 border-right"><span class="icon mr-1"><i class="far fa-envelope"></i></span><span class="text-muted">lawfirm@mail.com</span></p>
-        <p class="pr-md-5 border-right"><span class="icon mr-1"><i class="fas fa-phone"></i></span><span class="text-muted">01 2795457</span></p>
-        <p class="pr-md-5 border-right"><span class="icon mr-1"><i class="fas fa-map-marker-alt"></i></span><span class="text-muted">Av Jose Larco 453-497, Miraflores</span></p>
+      <div class="container d-flex justify-content-between flex-wrap p-3 p-md-0 pt-md-3 border-bottom">
+        <p class="ml-3 pr-md-5 border-right contact-info"><span class="icon mr-1"><i class="far fa-envelope"></i></span><span class="text-muted">lawfirm@mail.com</span></p>
+        <p class="pr-md-5 border-right contact-info"><span class="icon mr-1"><i class="fas fa-phone"></i></span><span class="text-muted">01 2795457</span></p>
+        <p class="pr-md-5 border-right contact-info"><span class="icon mr-1"><i class="fas fa-map-marker-alt"></i></span><span class="text-muted">Av Jose Larco 453-497, Miraflores</span></p>
         <div class="social"><a class="text-decoration-none ml-2" href="https://www.facebook.com/erick.hl.7587"><img src="images/icons/facebook.svg" alt="Facebook icon"/></a><a class="text-decoration-none ml-2" href="https://www.instagram.com/codeerick"><img src="images/icons/twitter.svg" alt="Twitter icon"/></a><a class="text-decoration-none ml-2" href="https://www.instagram.com/codeerick"><img src="images/icons/linkedin.svg" alt="Twitter icon"/></a></div>
       </div>
       <nav class="navbar navbar-expand-lg bg-white" id="navbar">
@@ -32,7 +32,59 @@
         </div>
       </nav>
     </header>
-    <!-- End header--><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- End header-->
+    <!-- Footer-->
+    <section class="container-top border-top">
+      <footer class="container footer py-5">
+        <div class="row">
+          <!-- Info-->
+          <div class="col-md-3 px-3 d-none d-md-block">
+            <div class="w-75 m-auto"><img class="img-fluid mb-3" src="images/logo.png" alt="Logotipo"/></div>
+            <p class="lead text-justify">
+              Somos una firma de abogados constituída en Perú con una destacada trayectoria de más de 10 años.
+              Brindamos asesoría legal personalizada a personas naturales y jurídicas a nivel nacional.
+            </p>
+          </div>
+          <!-- Info-->
+          <!-- Newsletter-->
+          <div class="col-md-5 px-md-5">
+            <h5 class="h5 text-uppercase mb-3">Bo<span class="line">let</span>ín</h5>
+            <p class="text-justify lead">
+              Suscríbase a nuestro boletín y sea el primero en conocer las últimas noticias, ofertas
+              especiales, eventos y descuentos.
+            </p>
+            <form action="">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Correo electrónico"/>
+              </div>
+              <div class="form-group">
+                <input class="btn btn-block btn-primary" type="submit" value="Suscribirme"/>
+              </div>
+            </form>
+          </div>
+          <!-- End Newsletter-->
+          <!-- Info contact-->
+          <div class="col-md-4">
+            <div class="mb-5">
+              <h5 class="h5 text-uppercase mb-3">Ub<span class="line">icaci</span>ón</h5>
+              <p class="lead text-muted"><span class="icon mr-1"><i class="fas fa-map-marker-alt"></i></span>                            Av Jose Larco 453-497, Miraflores</p>
+              <p class="lead text-muted"><span class="icon mr-1"><i class="far fa-clock"></i></span>                            lunes a viernes de 9:00 a.m. a 6:00 p.m.</p>
+            </div>
+            <div class="mb-3">
+              <h5 class="h5 text-uppercase mb-3">Co<span class="line">ntac</span>to</h5>
+              <!-- Icons contact--><span class="icon mr-1 lead"><i class="fas fa-phone"></i></span><span class="text-muted mr-2">01 2795457</span><span class="icon mr-1 lead"><i class="fas fa-mobile"></i></span><span class="text-muted mr-3 lead">937-981-899</span>
+              <!-- Icons contact-->
+              <!-- Icons social-->
+              <div class="social d-inline"><a class="text-decoration-none ml-2" href="https://www.facebook.com/erick.hl.7587"><img src="images/icons/facebook.svg" alt="Facebook icon"/></a><a class="text-decoration-none ml-2" href="https://www.instagram.com/codeerick"><img src="images/icons/twitter.svg" alt="Twitter icon"/></a><a class="text-decoration-none ml-2" href="https://www.instagram.com/codeerick"><img src="images/icons/linkedin.svg" alt="Twitter icon"/></a></div>
+              <!-- End icons social-->
+              <!-- End info contact-->
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright text-center bg-dark text-white p-3">© 2019 Erick HL. Todos los derechos reservados.</div>
+    </section>
+    <!-- End footer--><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>

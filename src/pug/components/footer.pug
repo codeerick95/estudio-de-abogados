@@ -1,0 +1,69 @@
+// Footer
+section.container-top.border-top
+    footer.container.footer.py-5
+        .row
+            // Info
+            .col-md-3.px-3.d-none.d-md-block
+                .w-75.m-auto
+                    img.img-fluid.mb-3(src='images/logo.png', alt='Logotipo')
+                p.lead.text-justify
+                    | Somos una firma de abogados constituída en Perú con una destacada trayectoria de más de 10 años.
+                    | Brindamos asesoría legal personalizada a personas naturales y jurídicas a nivel nacional.
+            // Info
+            // Newsletter
+            .col-md-5.px-md-5
+                h5.h5.text-uppercase.mb-3
+                    | Bo
+                    span.line let
+                    | ín
+                p.text-justify.lead
+                    | Suscríbase a nuestro boletín y sea el primero en conocer las últimas noticias, ofertas
+                    | especiales, eventos y descuentos.
+                form(action='')
+                    .form-group
+                        input.form-control(type='text', placeholder='Correo electrónico')
+                    .form-group
+                        input.btn.btn-block.btn-primary(type='submit', value='Suscribirme')
+            // End Newsletter
+            // Info contact
+            .col-md-4
+                .mb-5
+                    h5.h5.text-uppercase.mb-3
+                        | Ub
+                        span.line icaci
+                        | ón
+                    p.lead.text-muted
+                        span.icon.mr-1
+                            i.fas.fa-map-marker-alt
+                        |                             Av Jose Larco 453-497, Miraflores
+                    p.lead.text-muted
+                        span.icon.mr-1
+                            i.far.fa-clock
+                        |                             lunes a viernes de 9:00 a.m. a 6:00 p.m.
+                .mb-3
+                    h5.h5.text-uppercase.mb-3
+                        | Co
+                        span.line ntac
+                        | to
+                    // Icons contact
+                    span.icon.mr-1.lead
+                        i.fas.fa-phone
+                    span.text-muted.mr-2
+                        | 01 2795457
+                    span.icon.mr-1.lead
+                        i.fas.fa-mobile
+                    span.text-muted.mr-3.lead
+                        | 937-981-899
+                    // Icons contact
+                    // Icons social
+                    .social.d-inline
+                        a.text-decoration-none.ml-2(href='https://www.facebook.com/erick.hl.7587')
+                            img(src="images/icons/facebook.svg", alt="Facebook icon")
+                        a.text-decoration-none.ml-2(href='https://www.instagram.com/codeerick')
+                            img(src="images/icons/twitter.svg", alt="Twitter icon")
+                        a.text-decoration-none.ml-2(href='https://www.instagram.com/codeerick')
+                            img(src="images/icons/linkedin.svg", alt="Twitter icon")
+                    // End icons social
+                    // End info contact
+    include copyright
+// End footer
