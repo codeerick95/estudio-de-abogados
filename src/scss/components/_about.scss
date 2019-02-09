@@ -1,0 +1,27 @@
+.about {
+    margin-top: 15rem;
+    .col-md-5 {
+        height: 400px;
+        @include about-background-image('../images/about/team.jpg', cover);
+        opacity: .95;
+    }
+
+    .col-md-7 {
+        @include about-background-image('../images/pattern.png', 450px);
+    }
+}
+
+.features {
+    .card {
+        .icon {
+            font-size: 2em;
+            transition: transform 1s;
+        }
+
+        &:hover {
+            .icon {
+                transform: translate(25px, 25px);
+            }
+        }
+    }
+}

@@ -54,6 +54,32 @@ form textarea:focus, form input[type]:focus {
 form textarea {
   resize: none; }
 
+.about {
+  margin-top: 15rem; }
+  .about .col-md-5 {
+    height: 400px;
+    background-image: url("../images/about/team.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: .95; }
+  .about .col-md-7 {
+    background-image: url("../images/pattern.png");
+    background-size: 450px;
+    background-position: center; }
+
+.features .card .icon {
+  font-size: 2em;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -o-transition: transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s; }
+
+.features .card:hover .icon {
+  -webkit-transform: translate(25px, 25px);
+  -ms-transform: translate(25px, 25px);
+  transform: translate(25px, 25px); }
+
 body {
   font-family: "Raleway", sans-serif;
   color: #434445; }
