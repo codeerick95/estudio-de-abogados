@@ -1,0 +1,30 @@
+@mixin background-blue($opacity) {
+    background-color: rgba(59, 61, 75, $opacity);
+}
+
+@mixin shadow-card {
+    -webkit-box-shadow: 9px 9px 17px -16px rgba(37, 37, 37, 0.04);
+    -moz-box-shadow: 9px 9px 17px -16px rgba(37, 37, 37, 0.04);
+    box-shadow: 0 0 16px 0 rgba(37, 37, 37, 0.1);
+}
+
+@mixin background-image($image) {
+    background-image: url($image);
+    background-size: cover;
+    background-position: left 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 110px !important;
+}
+
+@mixin btn-primary {
+    background-color: $blue;
+    color: $white;
+    border-color: $blue;
+}
+
+@mixin about-background-image($image, $size) {
+    background-image: url($image);
+    background-size: $size;
+    background-position: center;
+}

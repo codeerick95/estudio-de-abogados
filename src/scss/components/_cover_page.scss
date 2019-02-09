@@ -1,0 +1,6 @@
+.cover-page {
+    @include background-image('../images/welcome.jpg');
+    .content {
+        @include background-blue(0.75);
+    }
+}

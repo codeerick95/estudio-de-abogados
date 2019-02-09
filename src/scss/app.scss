@@ -1,0 +1,19 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "components/navbar";
+@import "components/cover_page";
+
+body {
+    font-family: $font-global;
+    color: $black;
+}
+
+h2 {
+    color: $white;
+    font-size: 3em;
+    opacity: .9;
+}
+
+@import "utilities/buttons";
+@import "utilities/class_utilities";
+@import "utilities/media_query";

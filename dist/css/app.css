@@ -1,0 +1,119 @@
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+.header {
+  font-family: "Lato", sans-serif; }
+  .header .contact-info p {
+    font-size: .9em; }
+  .header .contact-info .social img {
+    width: 22px; }
+  .header .navbar .navbar-nav {
+    width: 60%; }
+  .header .navbar .nav-link {
+    font-size: .85em;
+    color: #434445 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: .9; }
+    .header .navbar .nav-link:hover {
+      color: #505cfd !important; }
+
+.cover-page {
+  background-image: url("../images/welcome.jpg");
+  background-size: cover;
+  background-position: left 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 110px !important; }
+  .cover-page .content {
+    background-color: rgba(59, 61, 75, 0.75); }
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #434445; }
+
+h2 {
+  color: #fff;
+  font-size: 3em;
+  opacity: .9; }
+
+.btn {
+  border-radius: 1px;
+  opacity: .9;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+  .btn:hover {
+    opacity: 1; }
+  .btn:active {
+    background-color: #505cfd !important;
+    border-color: #505cfd !important; }
+
+.btn-primary {
+  background-color: #505cfd;
+  color: #fff;
+  border-color: #505cfd; }
+  .btn-primary:hover {
+    background-color: #505cfd;
+    color: #fff;
+    border-color: #505cfd; }
+
+.btn-outline-primary {
+  color: #505cfd;
+  border-color: #505cfd; }
+  .btn-outline-primary:hover {
+    background-color: #505cfd;
+    color: #fff;
+    border-color: #505cfd; }
+
+.lead {
+  font-size: 1em; }
+
+.container-top {
+  margin-top: 7rem; }
+
+.border-bottom {
+  border-bottom: 1px solid #f3f1f1; }
+
+.line {
+  display: inline-block;
+  border-bottom: 3px solid rgba(80, 92, 253, 0.7); }
+
+.border-top {
+  border-top: 1px solid #f3f1f1 !important; }
+
+.border-bottom {
+  border-bottom: 1px solid #f3f1f1 !important; }
+
+.border-right {
+  border-right: 1px solid #f3f1f1 !important; }
+
+.icon {
+  font-size: 1em;
+  color: #505cfd;
+  opacity: .9; }
+
+.background-blue {
+  background-color: rgba(59, 61, 75, 0.8); }
+
+.texts {
+  background-color: rgba(59, 61, 75, 0.2);
+  border-left: 2px solid #505cfd;
+  color: #fff; }
+
+/* Cover page */
+@media only screen and (max-width: 1200px) {
+  .cover-page {
+    background-position: center; }
+  /* Internships */
+  .internships {
+    background-position: right 150px; }
+  .interships-info .col-md-7 {
+    background-position: right center; }
+  .services .card {
+    margin-bottom: 4rem !important; }
+  .interships-info .info {
+    padding-left: 1rem; } }
+
+@media only screen and (max-width: 768px) {
+  .cover-page, .internships {
+    margin-top: 10rem !important; } }

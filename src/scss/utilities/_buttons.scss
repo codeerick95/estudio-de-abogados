@@ -1,0 +1,30 @@
+.btn {
+    border-radius: 1px;
+    opacity: .9;
+    box-shadow: none !important;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &:active {
+        background-color: $blue !important;
+        border-color: $blue !important;
+    }
+}
+
+.btn-primary {
+    @include btn-primary;
+    &:hover {
+        @include btn-primary;
+    }
+}
+
+.btn-outline-primary {
+    color: $blue;
+    border-color: $blue;
+
+    &:hover {
+        @include btn-primary;
+    }
+}
