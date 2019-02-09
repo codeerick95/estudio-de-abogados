@@ -2,6 +2,7 @@
 @import "utilities/mixins";
 @import "components/navbar";
 @import "components/cover_page";
+@import "components/services";
 
 body {
     font-family: $font-global;
@@ -16,4 +17,5 @@ h2 {
 
 @import "utilities/buttons";
 @import "utilities/class_utilities";
+@import "utilities/cards";
 @import "utilities/media_query";

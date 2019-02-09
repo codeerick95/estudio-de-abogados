@@ -1,0 +1,8 @@
+.services {
+    .card {
+        @include shadow-card;
+        .card-body {
+            height: 250px;
+        }
+    }
+}
