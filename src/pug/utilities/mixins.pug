@@ -1,9 +1,9 @@
 <!-- Este mixin es para los posts que se muestran en la página blog -->
 mixin mini-post(urlImage, title)
     // Post
-    .col-md-12.mb-5
+    .col-md-12.mb-5.post
         .card.mb-.border-0
-            img.card-img-top(src=urlImage, alt='Post image')
+            img.card-img-top.image-opacity(src=urlImage, alt='Post image')
             .card-body
                 h5.h3.card-title=title
                 p.card-text.lead.mb-4.d-none.d-md-block

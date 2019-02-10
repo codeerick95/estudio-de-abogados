@@ -105,9 +105,6 @@ form textarea {
   background-size: cover;
   opacity: .85; }
 
-.blog img, .blog a, .post img, .post a {
-  opacity: .85; }
-
 body {
   font-family: "Raleway", sans-serif;
   color: #434445; }
@@ -178,6 +175,9 @@ h2 {
 .social img {
   width: 22px; }
 
+.image-opacity {
+  opacity: .85; }
+
 .card {
   -webkit-box-shadow: 9px 9px 17px -16px rgba(37, 37, 37, 0.04);
   -moz-box-shadow: 9px 9px 17px -16px rgba(37, 37, 37, 0.04);
@@ -194,7 +194,6 @@ h2 {
   color: #505cfd; }
 
 .card-image {
-  opacity: .85;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s; }

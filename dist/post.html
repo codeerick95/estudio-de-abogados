@@ -24,10 +24,10 @@
             <ul class="navbar-nav mx-auto d-flex justify-content-between">
               <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
               <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a></li>
-              <li class="nav-item"><a class="nav-link" href="index.html#services">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#services" onclick="$('#services').animatescroll();">Servicios</a></li>
               <li class="nav-item"><a class="nav-link" href="pasantias.html">Pasantías</a></li>
               <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-            </ul><a class="btn btn-outline-primary my-2 my-sm-0" href="index.html#contact">Contacto</a>
+            </ul><a class="btn btn-outline-primary my-2 my-sm-0" href="index.html#contact" onclick="$('#contact').animatescroll();">Contacto</a>
           </div>
         </div>
       </nav>
@@ -39,7 +39,7 @@
           <div class="row">
             <!-- Post-->
             <div class="col-md-12 mb-5">
-              <div class="card mb- border-0"><img class="card-img-top" src="images/carousel-background.jpg" alt="Post image"/>
+              <div class="card mb- border-0"><img class="card-img-top image-opacity" src="images/carousel-background.jpg" alt="Post image"/>
                 <div class="card-body">
                   <h3 class="card-title">Últimos cambios en la constitución política</h3>
                   <p class="card-text lead mb-4 d-none d-md-block">
@@ -62,8 +62,8 @@
                     otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
                   </p>
                   <div class="row my-5">
-                    <div class="col-md-6"><img class="img-fluid rounded" src="images/about/team.jpg" alt="Post image"/></div>
-                    <div class="col-md-6"><img class="img-fluid rounded-1 rounded" src="images/interships-team.jpg" alt="Post image"/></div>
+                    <div class="col-md-6"><img class="img-fluid rounded image-opacity" src="images/about/team.jpg" alt="Post image"/></div>
+                    <div class="col-md-6"><img class="img-fluid rounded-1 rounded image-opacity" src="images/interships-team.jpg" alt="Post image"/></div>
                   </div>
                   <cite class="d-inline-block mb-3">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</cite>
                   <p class="card-text lead mb-4 d-none d-md-block">
@@ -156,8 +156,8 @@
       <!-- End comments-->
     </div>
     <!-- Footer-->
-    <section class="container-top border-top">
-      <footer class="container footer py-5">
+    <section class="container-top footer border-top">
+      <footer class="container py-5">
         <div class="row">
           <!-- Info-->
           <div class="col-md-3 px-3 d-none d-md-block">
@@ -208,8 +208,9 @@
       </footer>
       <div class="copyright text-center bg-dark text-white p-3">© 2019 Erick HL. Todos los derechos reservados.</div>
     </section>
-    <!-- End footer--><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- End footer-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/animatescroll.min.js"></script><script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 <script src="js/app.js"></script>
   </body>
 </html>
