@@ -1,9 +1,24 @@
-.lead {
-    font-size: 1em;
+.background-blue {
+    @include background-blue(.8);
+}
+
+.background-points {
+    background-image: url('../images/pattern.png');
+    background-size: 270px;
 }
 
 .container-top {
     margin-top: 12em;
+}
+
+.texts {
+    @include background-blue(0.2);
+    border-left: 2px solid $blue;
+    color: $white;
+}
+
+.lead {
+    font-size: 1em;
 }
 
 .contact-info {
@@ -15,41 +30,14 @@
     border-bottom: 3px solid rgba(80, 92, 253, .5);
 }
 
-.border-top {
-    border-top: 1px solid $grey !important; // Bootstrap
-}
-
-.border-bottom {
-    border-bottom: 1px solid $grey !important; // Bootstrap
-}
-
-.border-right {
-    border-right: 1px solid $grey !important; // Bootstrap
-}
-
 .icon {
     font-size: 1em;
     color: $blue;
-    opacity: .9;
+    opacity: .8;
 }
 
 .social {
     img {
         width: 22px;
     }
-}
-
-.background-blue {
-    @include background-blue(.8);
-}
-
-.background-points {
-    background-image: url('../images/pattern.png');
-    background-size: 270px;
-}
-
-.texts {
-    @include background-blue(0.2);
-    border-left: 2px solid $blue;
-    color: $white;
 }

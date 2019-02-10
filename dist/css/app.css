@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Colors */
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
@@ -42,9 +43,11 @@
 
 form textarea:focus, form input[type]:focus {
   border-color: rgba(80, 92, 253, 0.3) !important;
-  outline: 0 none;
-  -webkit-box-shadow: 0 1px 1px rgba(80, 92, 253, 0.1) inset, 0 0 5px rgba(80, 92, 253, 0.7) !important;
-  box-shadow: 0 1px 1px rgba(80, 92, 253, 0.1) inset, 0 0 5px rgba(80, 92, 253, 0.7) !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: 0 1px 1px rgba(80, 92, 253, 0.1) inset, 0 0 1px rgba(80, 92, 253, 0.7) !important;
+  box-shadow: 0 1px 1px rgba(80, 92, 253, 0.1) inset, 0 0 1px rgba(80, 92, 253, 0.7) !important;
   -webkit-transition: border 1s, outline 1s, -webkit-box-shadow 1s;
   transition: border 1s, outline 1s, -webkit-box-shadow 1s;
   -o-transition: box-shadow 1s, border 1s, outline 1s;
@@ -68,7 +71,7 @@ form textarea {
     background-position: center; }
 
 .features .card .icon {
-  font-size: 2em;
+  font-size: 1.7em;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   -o-transition: transform 1s;
@@ -100,6 +103,9 @@ form textarea {
 .interships-info .background {
   background-image: url("../images/interships-team.jpg");
   background-size: cover;
+  opacity: .85; }
+
+.blog img, .blog a, .post img, .post a {
   opacity: .85; }
 
 body {
@@ -139,11 +145,23 @@ h2 {
     color: #fff;
     border-color: #505cfd; }
 
-.lead {
-  font-size: 1em; }
+.background-blue {
+  background-color: rgba(59, 61, 75, 0.8); }
+
+.background-points {
+  background-image: url("../images/pattern.png");
+  background-size: 270px; }
 
 .container-top {
   margin-top: 12em; }
+
+.texts {
+  background-color: rgba(59, 61, 75, 0.2);
+  border-left: 2px solid #505cfd;
+  color: #fff; }
+
+.lead {
+  font-size: 1em; }
 
 .contact-info {
   font-size: .9em; }
@@ -152,34 +170,13 @@ h2 {
   display: inline-block;
   border-bottom: 3px solid rgba(80, 92, 253, 0.5); }
 
-.border-top {
-  border-top: 1px solid #f3f1f1 !important; }
-
-.border-bottom {
-  border-bottom: 1px solid #f3f1f1 !important; }
-
-.border-right {
-  border-right: 1px solid #f3f1f1 !important; }
-
 .icon {
   font-size: 1em;
   color: #505cfd;
-  opacity: .9; }
+  opacity: .8; }
 
 .social img {
   width: 22px; }
-
-.background-blue {
-  background-color: rgba(59, 61, 75, 0.8); }
-
-.background-points {
-  background-image: url("../images/pattern.png");
-  background-size: 270px; }
-
-.texts {
-  background-color: rgba(59, 61, 75, 0.2);
-  border-left: 2px solid #505cfd;
-  color: #fff; }
 
 .card {
   -webkit-box-shadow: 9px 9px 17px -16px rgba(37, 37, 37, 0.04);
@@ -190,6 +187,7 @@ h2 {
     font-size: 1.3em;
     margin-bottom: 1rem; }
 
+/* Íconos de fondo */
 .icon-card {
   font-size: 6em;
   opacity: .11;
@@ -220,3 +218,5 @@ h2 {
 @media only screen and (max-width: 768px) {
   .cover-page, .internships {
     margin-top: 10rem !important; } }
+
+/*# sourceMappingURL=app.css.map */

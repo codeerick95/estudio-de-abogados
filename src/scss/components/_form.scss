@@ -1,8 +1,9 @@
 form {
     textarea:focus, input[type]:focus {
         border-color: rgba(80, 92, 253, .3) !important;
-        outline: 0 none;
-        box-shadow: 0 1px 1px rgba(80, 92, 253, .1) inset, 0 0 5px rgba(80, 92, 253, .7) !important;
+        outline: none !important;
+        box-shadow: none !important; // Quita el estilo de bootstrap
+        box-shadow: 0 1px 1px rgba(80, 92, 253, .1) inset, 0 0 1px rgba(80, 92, 253, .7) !important;
         transition: box-shadow 1s, border 1s, outline 1s;
     }
 
