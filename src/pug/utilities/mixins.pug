@@ -1,3 +1,4 @@
+<!-- Este mixin es para los posts que se muestran en la página blog -->
 mixin mini-post(urlImage, title)
     // Post
     .col-md-12.mb-5
@@ -26,3 +27,8 @@ mixin mini-post(urlImage, title)
                                 i.far.fa-clock
                             small Hace 5 minutos
     // End post
+
+<!-- Este mixin es para los botones que llevan al formulario de contacto -->
+mixin button-contact(url, text)
+    .text-center.pt-2.p-md-0
+        a.btn.btn-primary.mt-md-4.mt-lg-1(href=url)=text

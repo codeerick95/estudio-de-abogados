@@ -12,18 +12,7 @@ section.container-top.border-top
             // Info
             // Newsletter
             .col-md-5.px-md-5
-                h5.h5.text-uppercase.mb-3
-                    | Bo
-                    span.line let
-                    | ín
-                p.text-justify.lead
-                    | Suscríbase a nuestro boletín y sea el primero en conocer las últimas noticias, ofertas
-                    | especiales, eventos y descuentos.
-                form(action='')
-                    .form-group
-                        input.form-control(type='text', placeholder='Correo electrónico')
-                    .form-group
-                        input.btn.btn-block.btn-primary(type='submit', value='Suscribirme')
+                include newsletter
             // End Newsletter
             // Info contact
             .col-md-4
@@ -57,12 +46,7 @@ section.container-top.border-top
                     // Icons contact
                     // Icons social
                     .social.d-inline
-                        a.text-decoration-none.ml-2(href='https://www.facebook.com/erick.hl.7587')
-                            img(src="images/icons/facebook.svg", alt="Facebook icon")
-                        a.text-decoration-none.ml-2(href='https://www.instagram.com/codeerick')
-                            img(src="images/icons/twitter.svg", alt="Twitter icon")
-                        a.text-decoration-none.ml-2(href='https://www.instagram.com/codeerick')
-                            img(src="images/icons/linkedin.svg", alt="Twitter icon")
+                        include icons-social-networks
                     // End icons social
                     // End info contact
     include copyright

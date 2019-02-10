@@ -1,0 +1,2 @@
+Los componentes navbar y footer son utilizados en utilities/template.pug.
+El resto de componentes son utilizados en las páginas (index, about, pasantías, etc...)

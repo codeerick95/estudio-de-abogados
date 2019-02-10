@@ -9,45 +9,45 @@
             | internacional, siempre
             | orientado a objetivos rápidos y eficaces.
     // Cards
-    .row.mt-5.d-flex.justify-content-center
-        .col-md-5
+    .row.mt-5
+        .col-md-6
             .card.border-0
                 .card-body
                     .d-flex.justify-content-between.mb-1
-                        h5.h5 Profesionales calificados
+                        h5.h5 Profesionales <span class="line">calificados</span>
                         span.icon.mr-3
                             i.fas.fa-user-tie
                     p.lead.w-75.text-justify
                         | Nuestro equipo está conformado por profesionales
                         | expecializados.
-        .col-md-5
+        .col-md-6
             .card.border-0
                 .card-body
                     .d-flex.justify-content-between.mb-1
-                        h5.h5 Oficialmente premiados
+                        h5.h5 Oficialmente <span class="line">premiados</span>
                         span.icon.mr-3
                             i.fas.fa-medal
                     p.lead.w-75.text-justify
                         | Fuimos premiados por la más grande organización de abogados.
-        .col-md-5
+        .col-md-6
             .card.border-0
                 .card-body
                     .d-flex.justify-content-between.mb-1
-                        h5.h5 Servicio efectivo
+                        h5.h5 Servicio <span class="line">efectivo</span>
                         span.icon.mr-3
                             i.fas.fa-gavel
                     p.lead.w-75.text-justify
                         | Nuestro equipo le asegura efectividad en sus casos.
-        .col-md-5
+        .col-md-6
             .card.border-0
                 .card-body
                     .d-flex.justify-content-between.mb-1
-                        h5.h5 Alcance global
+                        h5.h5 Alcance <span class="line">global</span>
                         span.icon.mr-3
                             i.fas.fa-globe-americas
                     p.lead.w-75.text-justify
                         | Nuestro equipo ha resuelto casos a nivel nacional e internacional.
     // End cards
     .text-center
-        a.btn.btn-primary(href='index.html#contact') Obtener cita
+        +button-contact('index.html#contact', 'Obtener cita')
 // End features

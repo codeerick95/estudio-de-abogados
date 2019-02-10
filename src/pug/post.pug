@@ -63,6 +63,10 @@ block content
                                                 i.far.fa-clock
                                             small Hace 5 minutos
                     // End post
-            include components/recent-posts
+                div.row.d-sm-none
+                    include components/posts/comments
+            .col-md-4
+                include components/blog/recent-posts
     // End post
-    include components/comments
+    div.d-none.d-md-block
+        include components/posts/comments

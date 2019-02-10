@@ -7,7 +7,7 @@ block content
     .container.container-top.blog
         .row
             .col-md-8
-                form.form-inline.mb-5.d-sm-none(action='')
+                form.form-inline.my-5.d-sm-none(action='')
                     .form-group.w-100
                         input.form-control.rounded-0.w-100.mb-1(type='text', placeholder='Buscar en el blog')
                         button.btn.btn-block.btn-primary(type='submit') Buscar publicación
@@ -40,5 +40,9 @@ block content
                                     span.sr-only Next
 
                     <!-- End pagination-->
-            include components/recent-posts
+            .col-md-4.px-4
+                include components/blog/recent-posts
+
+                div.d-none.d-md-block
+                    include components/newsletter
     </div>

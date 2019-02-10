@@ -9,6 +9,7 @@ section#services.container.services.container-top
             | Derecho ofreciendo así un completo servicio a personas naturales y jurídicas.
     // Cards services
     .row
+        // Service 1
         .col-md-4
             .card.border-0(style='width: 100%;')
                 .card-body.position-relative.d-flex.justify-content-center.align-items-center
@@ -22,6 +23,9 @@ section#services.container.services.container-top
                         | Contamos con un equipo de Abogados especializados en Derecho penal,
                         | los cuáles le brindarán asesoría especializada, fiabilidad y eficacia ante autoridades
                         | policiales, fiscales y judiciales.
+        // End service 1
+
+        // Service 2
         .col-md-4
             .card.border-0(style='width: 100%;')
                 .card-body.position-relative.d-flex.justify-content-center.align-items-center
@@ -35,6 +39,9 @@ section#services.container.services.container-top
                         | Contamos con un equipo de Abogados especializados en Derecho civil,
                         | los cuáles le brindarán asesoría especializada, fiabilidad y eficacia ante autoridades
                         | policiales, fiscales y judiciales.
+        // End service 2
+
+        // Service 3
         .col-md-4
             .card.border-0(style='width: 100%;')
                 .card-body.position-relative.d-flex.justify-content-center.align-items-center
@@ -48,6 +55,9 @@ section#services.container.services.container-top
                         | Contamos con un equipo de Abogados especializados en Derecho constitucional,
                         | los cuáles le brindarán asesoría especializada, fiabilidad y eficacia ante autoridades
                         | policiales, fiscales y judiciales.
+        // End service 3
+
+        // Service 4
         .col-md-4
             .card.border-0(style='width: 100%;')
                 .card-body.position-relative.d-flex.justify-content-center.align-items-center
@@ -61,6 +71,9 @@ section#services.container.services.container-top
                         | Contamos con un equipo de Abogados especializados en Derecho comercial,
                         | los cuáles le brindarán asesoría especializada, fiabilidad y eficacia ante autoridades
                         | policiales, fiscales y judiciales.
+        // End service 4
+
+        // Service 5
         .col-md-4
             .card.border-0(style='width: 100%;')
                 .card-body.position-relative.d-flex.justify-content-center.align-items-center
@@ -74,6 +87,9 @@ section#services.container.services.container-top
                         | Contamos con un equipo de Abogados especializados en Derecho ambiental,
                         | los cuáles le brindarán asesoría especializada, fiabilidad y eficacia ante autoridades
                         | policiales, fiscales y judiciales.
+        // End service 5
+
+        // Service 5
         .col-md-4
             .card.border-0(style='width: 100%;')
                 .card-body.position-relative.d-flex.justify-content-center.align-items-center
@@ -87,7 +103,9 @@ section#services.container.services.container-top
                         | Contamos con un equipo de Abogados especializados en Derecho tributario,
                         | los cuáles le brindarán asesoría especializada, fiabilidad y eficacia ante autoridades
                         | policiales, fiscales y judiciales.
+        // End service 5
     // End card services
-    .text-center.pt-2.p-md-0
-        a.btn.btn-primary.mt-md-4.mt-lg-1(href='index.html#contact') Solicitar servicios
+    // Mixin
+    .text-center
+        +button-contact('index.html#contact', 'Solicitar servicios')
 // End services
