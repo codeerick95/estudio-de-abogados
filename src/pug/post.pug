@@ -1,0 +1,68 @@
+extends utilities/template
+
+append config
+    - pageTitle = 'Post...'
+
+block content
+    .container.container-top.post
+        .row
+            .col-md-8
+                .row
+                    // Post
+                    .col-md-12.mb-5
+                        .card.mb-.border-0
+                            img.card-img-top(src='images/carousel-background.jpg', alt='Post image')
+                            .card-body
+                                h3.card-title Últimos cambios en la constitución política
+                                p.card-text.lead.mb-4.d-none.d-md-block
+                                    | Lorem Ipsum ha
+                                    | sido el texto de relleno estándar de las industrias desde el año 1500, cuando un
+                                    | impresor.
+                                p.card-text.lead.mb-4.d-none.d-md-block
+                                    | Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                                    | contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                                    | Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
+                                    | de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen
+                                    | parecerlo un español que se puede leer.
+                                p
+                                    | Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su
+                                    | texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado
+                                    | muchos sitios web que usan este texto si se encuentran en estado de desarrollo.
+                                    | Muchas versiones han evolucionado a través de los años, algunas veces por accidente,
+                                    | otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+                                .row.my-5
+                                    .col-md-6
+                                        img.img-fluid.rounded(src='images/about/team.jpg', alt='Post image')
+                                    .col-md-6
+                                        img.img-fluid.rounded-1.rounded(src='images/interships-team.jpg', alt='Post image')
+                                cite.d-inline-block.mb-3
+                                    | Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                                p.card-text.lead.mb-4.d-none.d-md-block
+                                    | Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                                    | contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                                    | Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
+                                    | de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen
+                                    | parecerlo un español que se puede leer.
+                                p
+                                    | Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su
+                                    | texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado
+                                    | muchos sitios web que usan este texto si se encuentran en estado de desarrollo.
+                                    | Muchas versiones han evolucionado a través de los años, algunas veces por accidente,
+                                    | otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+                                .d-flex.flex-row.justify-content-between.align-items-center
+                                    p.d-inline
+                                        | Por 
+                                        a(href='#') Admin
+                                    div
+                                        p.card-text.d-inline.text-muted.mr-3
+                                            span.icon.mr-1
+                                                i.far.fa-comment
+                                            small 5
+                                        p.card-text.d-inline.text-muted
+                                            span.icon.mr-1
+                                                i.far.fa-clock
+                                            small Hace 5 minutos
+                    // End post
+            include components/recent-posts
+    // End post
+    include components/comments

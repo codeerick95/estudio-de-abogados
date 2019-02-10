@@ -1,5 +1,5 @@
 .cover-page {
-    @include background-image('../images/welcome.jpg');
+    @include background-image('../images/cover-page.jpg');
     .content {
         @include background-blue(0.75);
     }

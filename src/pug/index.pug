@@ -9,3 +9,23 @@ block content
     include components/team
     include components/testimonies
     include components/contact
+    // Recent posts
+    .container.container-top
+        h3.text-center.mb-5
+            | Visita nuestro <!-- Importante dejar espacio -->
+            span.line
+                | blog
+        .row
+            .col-md-4
+                // Post
+                +mini-post('images/carousel-background.jpg', 'Cambios en la constitución política')
+                // End post
+            .col-md-4
+                // Post
+                +mini-post('images/internships.jpg', 'Convocatoria abierta para pasantías en Law firm')
+                // End post
+            .col-md-4
+                // Post
+                +mini-post('images/cover-page.jpg', 'Coimas a nivel empresarial ahora serán sancionadas penalmente')
+                // End post
+    // End recent posts

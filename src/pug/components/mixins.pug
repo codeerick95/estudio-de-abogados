@@ -1,0 +1,28 @@
+mixin mini-post(urlImage, title)
+    // Post
+    .col-md-12.mb-5
+        .card.mb-.border-0
+            img.card-img-top(src=urlImage, alt='Post image')
+            .card-body
+                h5.h3.card-title=title
+                p.card-text.lead.mb-4.d-none.d-md-block
+                    | Lorem Ipsum ha
+                    | sido el texto de relleno estándar de las industrias desde el año 1500, cuando un
+                    | impresor
+                    | (N. del T.
+                    | persona que se dedica a la imprenta) desconocido usó una... 
+                    a(href='post.html') Leer más
+                .d-flex.flex-row.justify-content-between.align-items-center
+                    p.d-inline.mt-3
+                        | Por 
+                        a(href='#') Admin
+                    div
+                        p.card-text.d-inline.text-muted.mr-3
+                            span.icon.mr-1
+                                i.far.fa-comment
+                            small 5
+                        p.card-text.d-inline.text-muted
+                            span.icon.mr-1
+                                i.far.fa-clock
+                            small Hace 5 minutos
+    // End post

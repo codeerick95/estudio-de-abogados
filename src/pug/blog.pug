@@ -1,0 +1,44 @@
+extends utilities/template
+
+append config
+    - pageTitle = 'Blog'
+
+block content
+    .container.container-top.blog
+        .row
+            .col-md-8
+                form.form-inline.mb-5.d-sm-none(action='')
+                    .form-group.w-100
+                        input.form-control.rounded-0.w-100.mb-1(type='text', placeholder='Buscar en el blog')
+                        button.btn.btn-block.btn-primary(type='submit') Buscar publicación
+                .row
+                    // Lista de posts
+                    +mini-post('images/carousel-background.jpg', 'Cambios en la constitución política')
+                    +mini-post('images/internships.jpg', 'Convocatoria abierta para pasantías en Law firm')
+                    +mini-post('images/cover-page.jpg', 'Coimas a nivel empresarial ahora serán sancionadas penalmente')
+                    +mini-post('images/carousel-background.jpg', 'Cambios en la constitución política')
+                    +mini-post('images/internships.jpg', 'Convocatoria abierta para pasantías en Law firm')
+                    +mini-post('images/cover-page.jpg', 'Coimas a nivel empresarial ahora serán sancionadas penalmente')
+                    // Pagination
+                .row
+                    .col-md-4.offset-md-4
+                        nav(aria-label='Paginación')
+                        ul.pagination
+                            li.page-item
+                                a.page-link(href='#', aria-label='Previous')
+                                    span(aria-hidden='true') «
+                                    span.sr-only Previous
+                            li.page-item
+                                a.page-link(href='#') 1
+                            li.page-item
+                                a.page-link(href='#') 2
+                            li.page-item
+                                a.page-link(href='#') 3
+                            li.page-item
+                                a.page-link(href='#', aria-label='Next')
+                                    span(aria-hidden='true') »
+                                    span.sr-only Next
+
+                    <!-- End pagination-->
+            include components/recent-posts
+    </div>
